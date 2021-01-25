@@ -1,0 +1,250 @@
+<!DOCTYPE html> <html><head>
+        <title>Page Title</title>
+    <style>.left-column {
+    border: gainsboro solid 1px;
+    width:255px;
+    height:489px;
+    font-size:20px;
+    font-family: helvetica, sans-serif;
+    font-weight:bolder;
+    line-height:45px;
+    text-align:left;
+    display:flex;
+}
+.top {
+    border: gainsboro solid 1px;
+    width:598px;
+    height:53px;
+    position:absolute;
+    top:8px;
+    left:264px;
+}
+.name1 {
+    font-size:16px;
+    font-family: helvetica, sans-serif;
+    font-weight:bolder;
+    position:relative;
+    top:2px;
+    left:15px;
+    width:568px;
+    height:19px;
+}
+.tweet-amount {
+    color:darkslategray;
+    font-size:15px;
+    font-family: helvetica, sans-serif;
+    position:relative;
+    top:9px;
+    left:47px;
+}
+.middle-column {
+    border: gainsboro solid 1px;
+    width:598px;
+    height:1000px;
+    position:absolute;
+    left:264px;
+    top:62px;
+}
+.pfp {
+    border:white solid 4px;
+    border-radius: 500px;
+    width: 134px;
+    position:absolute;
+    left:20px;
+    top:130px;
+}
+.background {
+    width:598px;
+    height:200px;
+}
+.name2 {
+    font-size:16px;
+    font-family: helvetica, sans-serif;
+    font-weight:bolder;
+    position:relative;
+    top:65px;
+    left:20px;
+    width:568px;
+    height:19px;
+}
+.handle {
+    color:darkslategray;
+    font-size:15px;
+    font-family: helvetica, sans-serif;
+    position:relative;
+    top:68px;
+    left:25px;
+}
+.link {
+    font-size:15px;
+    font-family: helvetica, sans-serif;
+    position:relative;
+    top:130px;
+    left:52px;
+}
+a:link {
+    color:deepskyblue;
+    text-decoration:none;
+}
+a:visited {
+    color:deepskyblue;
+    text-decoration:none;
+}
+a:hover {
+    color:deepskyblue;
+    text-decoration:underline;
+}
+.join-date {
+    color:darkslategray;
+    font-size:15px;
+    font-family: helvetica, sans-serif;
+    position:relative;
+    top:113px;
+    left:210px;
+}
+ul {
+ list-style:none;   
+}
+.following {
+    color:darkslategray;
+    font-size:15px;
+    font-family: helvetica, sans-serif;
+    position:relative;
+    top:115px;
+    left:32px;
+}
+.followers {
+    color:darkslategray;
+    font-size:15px;
+    font-family: helvetica, sans-serif;
+    position:relative;
+    top:82px;
+    left:149px;
+}
+ct-bold {
+    font-family: helvetica, sans-serif;
+    font-weight:bolder;
+    color:black;
+}
+.tablinks {
+  border: 0px solid white;
+    color:darkslategray;
+    font-weight:bolder;
+    font-size:14px;
+}
+.tab button {
+    background-color:inherit;
+    outline:none;
+    float: left;
+    display:block;
+    cursor:pointer;
+    text-align: center;
+    padding: 20px 45px;
+    text-decoration: none;
+    transition:0.1s;
+    position:relative;
+    top:90px;
+}
+.tab button:hover {
+  background-color: lightcyan;
+}
+.active {
+    color:deepskyblue;
+    border-bottom:3px solid deepskyblue;
+}
+.tabcontent {
+    display:none;
+    position:relative;
+    top:145px;
+}</style></head>
+    <body>
+        <div class="left-column">
+            <ul>
+                <li>🏠&nbsp;&nbsp;Home</li>
+                <li>#️⃣&nbsp;&nbsp;Explore</li>
+                <li>🔔&nbsp;&nbsp;Notifications</li>
+                <li>✉️&nbsp;&nbsp;Messages</li>
+                <li>🔖&nbsp;&nbsp;Bookmarks</li>
+                <li>🗒️&nbsp;&nbsp;Lists</li>
+                <li>🧑‍🦲&nbsp;&nbsp;Profile</li>
+                <li>💬&nbsp;&nbsp;More</li>
+            </ul>
+        </div>
+        <div class="top">
+            <div class="name1">
+            ⬅&nbsp;&nbsp;&nbsp; Juice WRLD☑
+            </div>
+            <div class="tweet-amount">
+                16.5K Tweets
+            </div>
+        </div>
+        <div class="middle-column">
+            <div class="back">
+                <img class="background" src="https://i.ibb.co/V37H4Qk/788589-2.jpg">
+            </div>
+            <div class="profile-picture">
+                <img class="pfp" src="https://i1.sndcdn.com/artworks-000665728237-a75xib-t500x500.jpg">
+            </div>
+            <div class="profile">
+                <div class="name2">
+                    Juice WRLD☑
+                </div>
+                <div class="handle">
+                    @JuiceWorlddd
+                </div>
+                <div class="link">
+                    <a href="https://t.co/3Mm57R1TNd?amp=1" target="blank">🔗 juicewrld999.com</a>
+                </div>
+                <div class="join-date">
+                    📅 Joined September 2015
+                </div>
+                <div class="following">
+                    <p><ct-bold>479</ct-bold> Following</p>
+                </div>
+                <div class="followers">
+                    <p><ct-bold>1.6M</ct-bold> Followers</p>
+                </div>
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'Tweets')">Tweets</button>
+                    <button class="tablinks" onclick="openCity(event, 'T&amp;R')">Tweets &amp; replies</button>
+                    <button class="tablinks" onclick="openCity(event, 'Media')">Media</button>
+                    <button class="tablinks" onclick="openCity(event, 'Likes')">Likes</button>
+                </div>
+<div id="Tweets" class="tabcontent">
+    <img src="https://i.ibb.co/vJbyxKY/Screenshot-2021-01-20-at-11-37-54-PM.png">
+</div>
+
+<div id="T&amp;R" class="tabcontent">
+    <img src="https://i.ibb.co/vJbyxKY/Screenshot-2021-01-20-at-11-37-54-PM.png">
+</div>
+
+<div id="Media" class="tabcontent">
+    <img src="https://i.ibb.co/TkqzS7j/Screenshot-2021-01-20-at-11-49-58-PM.png">
+</div>
+<div id="Likes" class="tabcontent">
+    <img src="https://i.ibb.co/5570t6t/Screenshot-2021-01-20-at-11-51-43-PM.png">
+</div>
+            </div>
+        </div>
+    
+
+<script>
+/*__POPCODESTART__*/
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  tablinks = document.getElementsByClassName("tablinks");
+
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbIm9wZW5DaXR5IiwiZXZ0IiwiY2l0eU5hbWUiLCJpIiwidGFiY29udGVudCIsInRhYmxpbmtzIiwiZG9jdW1lbnQiLCJnZXRFbGVtZW50c0J5Q2xhc3NOYW1lIiwibGVuZ3RoIiwic3R5bGUiLCJkaXNwbGF5IiwiY2xhc3NOYW1lIiwicmVwbGFjZSIsImdldEVsZW1lbnRCeUlkIiwiY3VycmVudFRhcmdldCJdLCJtYXBwaW5ncyI6IkFBQUEsU0FBU0EsUUFBVCxDQUFrQkMsR0FBbEIsRUFBdUJDLFFBQXZCLEVBQWlDO0FBQy9CLE1BQUlDLENBQUosRUFBT0MsVUFBUCxFQUFtQkMsUUFBbkI7QUFDQUQsRUFBQUEsVUFBVSxHQUFHRSxRQUFRLENBQUNDLHNCQUFULENBQWdDLFlBQWhDLENBQWI7O0FBQ0EsT0FBS0osQ0FBQyxHQUFHLENBQVQsRUFBWUEsQ0FBQyxHQUFHQyxVQUFVLENBQUNJLE1BQTNCLEVBQW1DTCxDQUFDLEVBQXBDLEVBQXdDO0FBQ3RDQyxJQUFBQSxVQUFVLENBQUNELENBQUQsQ0FBVixDQUFjTSxLQUFkLENBQW9CQyxPQUFwQixHQUE4QixNQUE5QjtBQUNEOztBQUNETCxFQUFBQSxRQUFRLEdBQUdDLFFBQVEsQ0FBQ0Msc0JBQVQsQ0FBZ0MsVUFBaEMsQ0FBWDs7QUFDQSxPQUFLSixDQUFDLEdBQUcsQ0FBVCxFQUFZQSxDQUFDLEdBQUdFLFFBQVEsQ0FBQ0csTUFBekIsRUFBaUNMLENBQUMsRUFBbEMsRUFBc0M7QUFDcENFLElBQUFBLFFBQVEsQ0FBQ0YsQ0FBRCxDQUFSLENBQVlRLFNBQVosR0FBd0JOLFFBQVEsQ0FBQ0YsQ0FBRCxDQUFSLENBQVlRLFNBQVosQ0FBc0JDLE9BQXRCLENBQThCLFNBQTlCLEVBQXlDLEVBQXpDLENBQXhCO0FBQ0Q7O0FBQ0ROLEVBQUFBLFFBQVEsQ0FBQ08sY0FBVCxDQUF3QlgsUUFBeEIsRUFBa0NPLEtBQWxDLENBQXdDQyxPQUF4QyxHQUFrRCxPQUFsRDtBQUNBVCxFQUFBQSxHQUFHLENBQUNhLGFBQUosQ0FBa0JILFNBQWxCLElBQStCLFNBQS9CO0FBQ0QiLCJzb3VyY2VzQ29udGVudCI6WyJmdW5jdGlvbiBvcGVuQ2l0eShldnQsIGNpdHlOYW1lKSB7XG4gIHZhciBpLCB0YWJjb250ZW50LCB0YWJsaW5rcztcbiAgdGFiY29udGVudCA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoXCJ0YWJjb250ZW50XCIpO1xuICBmb3IgKGkgPSAwOyBpIDwgdGFiY29udGVudC5sZW5ndGg7IGkrKykge1xuICAgIHRhYmNvbnRlbnRbaV0uc3R5bGUuZGlzcGxheSA9IFwibm9uZVwiO1xuICB9XG4gIHRhYmxpbmtzID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeUNsYXNzTmFtZShcInRhYmxpbmtzXCIpO1xuICBmb3IgKGkgPSAwOyBpIDwgdGFibGlua3MubGVuZ3RoOyBpKyspIHtcbiAgICB0YWJsaW5rc1tpXS5jbGFzc05hbWUgPSB0YWJsaW5rc1tpXS5jbGFzc05hbWUucmVwbGFjZShcIiBhY3RpdmVcIiwgXCJcIik7XG4gIH1cbiAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoY2l0eU5hbWUpLnN0eWxlLmRpc3BsYXkgPSBcImJsb2NrXCI7XG4gIGV2dC5jdXJyZW50VGFyZ2V0LmNsYXNzTmFtZSArPSBcIiBhY3RpdmVcIjtcbn0iXX0=</script></body></html>
